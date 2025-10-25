@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "2450AT18D0100001E")(type "KiCad")(uri "${KIPRJMOD}/../../components/2450AT18D0100001E")(options "")(descr ""))
+  (lib (name "DMM-4326-T-R")(type "KiCad")(uri "${KIPRJMOD}/../../components/DMM-4326-T-R")(options "")(descr ""))
+  (lib (name "MAX9867")(type "KiCad")(uri "${KIPRJMOD}/../../components/MAX9867")(options "")(descr ""))
+  (lib (name "PWQN0048KC-A_REN")(type "KiCad")(uri "${KIPRJMOD}/../../components/PWQN0048KC-A_REN")(options "")(descr ""))
+  (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/../../components/USB2422")(options "")(descr ""))
+  (lib (name "LM662")(type "KiCad")(uri "${KIPRJMOD}/../../components/LM662")(options "")(descr ""))
+)

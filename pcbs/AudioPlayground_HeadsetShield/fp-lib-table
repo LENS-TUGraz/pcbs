@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SJ235364BSMTTR")(type "KiCad")(uri "${KIPRJMOD}/../../components/SJ235364BSMTTR")(options "")(descr ""))
+)
