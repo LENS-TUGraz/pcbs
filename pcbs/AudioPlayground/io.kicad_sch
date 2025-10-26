@@ -6288,7 +6288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FabisLib:SAMTEC_RSP-122811-01"
+		(property "Footprint" "SAMTEC_RSP-122811-01:SAMTEC_RSP-122811-01"
 			(at 270.002 130.81 0)
 			(effects
 				(font

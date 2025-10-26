@@ -7432,7 +7432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SDA"
 			(at 181.356 144.018 0)
 			(effects
 				(font
@@ -11543,7 +11543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SCL"
 			(at 181.61 155.702 0)
 			(effects
 				(font

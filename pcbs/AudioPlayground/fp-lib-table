@@ -6,4 +6,5 @@
   (lib (name "PWQN0048KC-A_REN")(type "KiCad")(uri "${KIPRJMOD}/../../components/PWQN0048KC-A_REN")(options "")(descr ""))
   (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/../../components/USB2422")(options "")(descr ""))
   (lib (name "LM662")(type "KiCad")(uri "${KIPRJMOD}/../../components/LM662")(options "")(descr ""))
+  (lib (name "SAMTEC_RSP-122811-01")(type "KiCad")(uri "${KIPRJMOD}/../../components/SAMTEC_RSP-122811-01")(options "")(descr ""))
 )
