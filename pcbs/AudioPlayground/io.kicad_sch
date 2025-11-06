@@ -8104,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "S2B_PH_SM4_TB:JST_S2B-PH-SM4-TB"
 			(at 134.62 40.64 0)
 			(effects
 				(font
