@@ -7,4 +7,5 @@
   (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/../../components/USB2422")(options "")(descr ""))
   (lib (name "LM662")(type "KiCad")(uri "${KIPRJMOD}/../../components/LM662")(options "")(descr ""))
   (lib (name "SAMTEC_RSP-122811-01")(type "KiCad")(uri "${KIPRJMOD}/../../components/SAMTEC_RSP-122811-01")(options "")(descr ""))
+  (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/../../components/TS3USB221A")(options "")(descr ""))
 )
