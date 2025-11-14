@@ -22894,7 +22894,7 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "5.1k"
 			(at 0 1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -27524,7 +27524,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 0 1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
