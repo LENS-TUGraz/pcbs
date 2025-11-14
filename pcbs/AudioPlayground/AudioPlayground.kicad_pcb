@@ -2935,7 +2935,7 @@
 			(uuid "747b1033-cb1b-49a5-bc16-42eee6b201d3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Nordic_AQFN-94-1EP_7x7mm_P0.4mm.step"
+		(model "${KIPRJMOD}/../../components/NRF5340-QKAA-R/NRF5340-QKAA-R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5542,6 +5542,17 @@
 			(uuid "ba5a9440-3cbe-49ec-a604-2309bba6852f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/MAX9867/MAX9867.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -9754,6 +9765,17 @@
 			(uuid "771a3d7f-4038-4d62-8369-df16f207c226")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/DMM-4326-T-R/DMM-4326-T-R.step"
+			(offset
+				(xyz 1.5 2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -10446,7 +10468,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cfd9307a-e1d9-4568-9f0f-fc5b9985a006")
+			(uuid "528fc99b-be88-4b04-b1fa-cdc0778db2c2")
 			(effects
 				(font
 					(size 1 1)
@@ -10459,7 +10481,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34d2bfda-8589-47c5-afff-7c762cc66bdf")
+			(uuid "43453486-2a2e-43fe-a709-7bf175c2aaba")
 			(effects
 				(font
 					(size 1 1)
@@ -10471,7 +10493,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31b29eb3-a641-43bb-9256-dbddf8af3561")
+			(uuid "4fcf4c11-6fec-43ae-bf77-577546938140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10505,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c005b584-d979-460f-9afc-2f5e9ae0a239")
+			(uuid "74536e8e-93c1-420e-a237-896f4730067e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,6 +10842,17 @@
 			(uuid "5bfc206b-24ec-4508-9c1f-0a388ecb1c35")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/LM662/LM662.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -20061,6 +20094,17 @@
 			(uuid "ee6cd18d-46f4-4f1c-8be8-627d7ce363e3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/USB2422/USB2422.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -26478,21 +26522,10 @@
 			(uuid "42927439-b784-45a9-8d3f-7ac689c3dbe3")
 		)
 		(fp_text user "*"
-			(at -1.7148 -1 180)
+			(at -0.876349 -1.406549 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "24f59487-79eb-4db1-843f-65b6ee579168")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -1.7148 -1 0)
-			(layer "F.SilkS")
-			(uuid "7a138c26-640d-41ac-b9c7-4fd6a369bf9d")
 			(effects
 				(font
 					(size 1 1)
@@ -26626,6 +26659,17 @@
 			(uuid "27523af6-7676-4831-ab5d-ab280b6a6a1d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/TS3USB221A/TS3USB221A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -28787,7 +28831,7 @@
 			)
 		)
 		(property "Datasheet" "R7FA4M2AB3CNE"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a7f029b-f05b-4c08-b9e6-ae3dbe78310c")
@@ -28799,7 +28843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "252d162f-3099-466f-af81-b3864bf29f43")
@@ -31286,7 +31330,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -4.4172 -3.131 270)
+			(at -4.4172 -3.131 90)
 			(layer "F.SilkS")
 			(uuid "d4e8c0b0-2aed-4ebc-9955-a386f6a2fd1a")
 			(effects
@@ -31297,7 +31341,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -3.1472 -2.9024 270)
+			(at -3.1472 -2.9024 90)
 			(layer "F.Fab")
 			(uuid "a0da2849-2662-4ce1-96a1-0cac9866f248")
 			(effects
@@ -31773,6 +31817,17 @@
 			(uuid "d241211e-83f4-4ad8-a9a8-623d0fc4c732")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/R7FA4M2/R7FA4M2.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -33533,6 +33588,17 @@
 			(uuid "76953edd-ef81-41e3-ad80-ac1f9ddb9868")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../components/DMM-4326-T-R/DMM-4326-T-R.step"
+			(offset
+				(xyz 1.5 2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -36427,15 +36493,15 @@
 			(uuid "4efab1a6-7be6-411d-9f80-ad19903e3a1c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DHVQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm.step"
+		(model "${KIPRJMOD}/../../components/74CBTLV3245/74CBTLV3245.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.6 1.4 2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 90)
 			)
 		)
 	)
