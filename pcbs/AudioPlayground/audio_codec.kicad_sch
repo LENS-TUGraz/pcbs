@@ -2453,7 +2453,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "470nF"
 			(at 210.566 130.556 0)
 			(effects
 				(font
@@ -2498,6 +2498,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c92b03c-1573-463c-a935-f4ccf371980b")
 		)
@@ -2524,7 +2533,7 @@
 		(at 135.89 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2675,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22UF"
+		(property "Value" "220nF"
 			(at 157.48 139.6999 0)
 			(effects
 				(font
@@ -2712,6 +2721,15 @@
 			)
 		)
 		(property "MOUSER" "963-JMK105B7224KV-F"
+			(at 153.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16772"
 			(at 153.67 138.43 0)
 			(effects
 				(font
@@ -2796,6 +2814,15 @@
 			)
 		)
 		(property "MOUSER" " 81-GRM155Z71A105KE1D "
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 97.79 99.06 0)
 			(effects
 				(font
@@ -2902,7 +2929,7 @@
 		(at 123.19 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3089,6 +3116,15 @@
 			)
 		)
 		(property "MOUSER" " 81-GRM155Z71A105KE1D "
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -3395,6 +3431,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25879"
+			(at 147.32 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "444f713e-b7c2-4ec5-b2d4-3cfe7f57e965")
 		)
@@ -3435,7 +3480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22UF"
+		(property "Value" "220nF"
 			(at 154.94 152.3999 0)
 			(effects
 				(font
@@ -3472,6 +3517,15 @@
 			)
 		)
 		(property "MOUSER" "963-JMK105B7224KV-F"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16772"
 			(at 151.13 151.13 0)
 			(effects
 				(font
@@ -3636,6 +3690,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30c15d73-924a-45c3-a1b4-2fe37d53f4df")
 		)
@@ -3710,6 +3773,15 @@
 			)
 		)
 		(property "MOUSER" " 660-RN73R1ETP1002F50 "
+			(at 118.11 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 118.11 92.71 90)
 			(effects
 				(font
@@ -4016,6 +4088,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C412252"
+			(at 184.15 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07cd2e59-82ae-466a-a2a5-615365f36df4")
 		)
@@ -4244,6 +4325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6644e232-bbe8-4ac3-ab4f-6d0e4fa6ef79")
 		)
@@ -4400,6 +4490,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bf7153f2-5fc9-4a93-978d-bf05dcf39e2b")
 		)
@@ -4426,7 +4525,7 @@
 		(at 142.24 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4838,6 +4937,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a37202f8-291e-4aab-8185-0ea47c99fa17")
 		)
@@ -4923,6 +5031,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 213.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96a277f1-edfa-492d-9c90-0a44c238502d")
 		)
@@ -4949,7 +5066,7 @@
 		(at 129.54 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5146,6 +5263,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b502c31-5835-46ba-9c44-511805a4a457")
 		)
@@ -5185,7 +5311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "470nF"
 			(at 224.028 131.064 0)
 			(effects
 				(font
@@ -5222,6 +5348,15 @@
 			)
 		)
 		(property "MOUSER" " 963-BASJ105SB7474KF "
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
 			(at 223.52 128.27 0)
 			(effects
 				(font
@@ -5304,6 +5439,15 @@
 			)
 		)
 		(property "MOUSER" "81-GRM31CR60E227ME1K"
+			(at 184.15 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C412252"
 			(at 184.15 97.79 90)
 			(effects
 				(font
@@ -5397,6 +5541,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47ba9d0f-1520-418d-b610-9f6d27bb0adc")
 		)
@@ -5481,6 +5634,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12530"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3349a3b-a430-4c8d-a9da-6ee5f4867424")
 		)
@@ -5507,7 +5669,7 @@
 		(at 148.59 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5620,6 +5782,15 @@
 			)
 		)
 		(property "MOUSER" " 700-MAX9867ETJT "
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2649368"
 			(at 147.32 99.06 0)
 			(effects
 				(font

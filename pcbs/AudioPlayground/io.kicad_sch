@@ -5,6 +5,150 @@
 	(uuid "b2d0e96a-4b43-4534-ab1b-49764533318f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "ADWH004:ADWH004"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADWH004"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "0_footprints:ADWH004"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C42414493"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADWH004_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x07_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2054,259 +2198,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Antenna_Chip"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE1"
-				(at -1.27 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Antenna"
-				(at -3.556 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "FabisLib:2450AT18D0100001E"
-				(at -2.54 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -2.54 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceramic chip antenna with pin for PCB trace"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_Chip_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 6.985) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_Chip_1_1"
-				(pin input line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "FEED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "PCB_Trace"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "PCB_Trace"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "PCB_Trace"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2429,168 +2320,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3058,354 +2787,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "fabis_lib:RSP-122811-01"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J10"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RSP-122811-01"
-				(at -0.762 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "FabisLib:SAMTEC_RSP-122811-01"
-				(at 1.778 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.snapeda.com/parts/RSP-122811-01/Samtec%20Inc./datasheet/"
-				(at 0.254 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "U.FL (UMCC), I-PEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
-				(at 1.016 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MOUSER" " 200-RSP-122811-01 "
-				(at -0.762 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RSP-122811-01_0_0"
-				(polyline
-					(pts
-						(xy -3.302 3.302) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.778) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 0.762) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -0.762) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -1.27 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.508 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.254 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RSP-122811-01_1_0"
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4168,37 +3549,17 @@
 		)
 		(uuid "aba7fbd0-fbd6-416e-ab5e-b0717e2132ae")
 	)
-	(text "Mount either\nR28 or R29"
-		(exclude_from_sim no)
-		(at 231.394 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cda62c1b-833a-48c5-8436-ecb3c23313ac")
-	)
-	(text "Antenna + Connector"
-		(exclude_from_sim no)
-		(at 245.872 159.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "efb4fd94-f4c2-4035-a55b-1ed3fe5a02a9")
-	)
-	(junction
-		(at 229.87 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "228ee0f9-28d3-4bb4-9ff8-a2d2ea84a1a2")
-	)
 	(junction
 		(at 212.09 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cb42e08-207c-4414-9a63-6f62c031704e")
+	)
+	(junction
+		(at 257.81 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77597cb6-1856-46b3-b34e-44525b457726")
 	)
 	(junction
 		(at 147.32 72.39)
@@ -4213,22 +3574,10 @@
 		(uuid "8dd7e39a-8759-405a-aa04-bc5f743922b6")
 	)
 	(junction
-		(at 257.81 137.16)
+		(at 250.19 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cad1228c-397c-4718-82da-191dc1fbdb1b")
-	)
-	(junction
-		(at 257.81 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce90a4b5-1122-4640-a509-d42006ed16dc")
-	)
-	(junction
-		(at 250.19 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf1f3bcf-eef5-45d2-b321-7e00e54d0ffd")
+		(uuid "92ca7a06-a04d-427c-b1d0-90f7291e26d7")
 	)
 	(junction
 		(at 134.62 31.75)
@@ -4242,11 +3591,9 @@
 		(color 0 0 0 0)
 		(uuid "d5f2ae2f-d381-4b4c-b692-2175a0f4432e")
 	)
-	(junction
-		(at 250.19 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4bfb9f1-2c86-4602-a81f-1d46b8137fa0")
+	(no_connect
+		(at 267.97 107.95)
+		(uuid "557b00cd-b3fb-40b1-9f67-cb6e001c3a0e")
 	)
 	(no_connect
 		(at 41.91 35.56)
@@ -4546,16 +3893,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.122 137.16) (xy 229.87 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d68045d-d9b4-4c4d-8bb0-796fa19de262")
-	)
-	(wire
-		(pts
 			(xy 54.61 161.29) (xy 60.96 161.29)
 		)
 		(stroke
@@ -4586,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 116.84) (xy 229.87 116.84)
+			(xy 250.19 116.84) (xy 240.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4726,16 +4063,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.16) (xy 250.19 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f18e397-2319-4089-af75-fdf03f80e380")
-	)
-	(wire
-		(pts
 			(xy 96.52 40.64) (xy 85.09 40.64)
 		)
 		(stroke
@@ -4846,16 +4173,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 137.16) (xy 269.24 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789a3c00-f080-42f6-b49a-4863a0c09ffe")
-	)
-	(wire
-		(pts
 			(xy 41.91 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -4933,16 +4250,6 @@
 			(type default)
 		)
 		(uuid "849765c5-3304-44d2-b257-c1309bfa5fdf")
-	)
-	(wire
-		(pts
-			(xy 265.43 116.84) (xy 274.32 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8693f8e2-fa40-4a53-b06b-6cc1116bf227")
 	)
 	(bus
 		(pts
@@ -5023,16 +4330,6 @@
 			(type default)
 		)
 		(uuid "9cd1f92a-f0ae-4509-8439-6f4cea7c6795")
-	)
-	(wire
-		(pts
-			(xy 229.87 116.84) (xy 229.87 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f1b50a2-8d5e-4a62-bbe7-a4939eac454c")
 	)
 	(wire
 		(pts
@@ -5143,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "b8a449ee-37e4-4404-b612-5c09baac3c9b")
+	)
+	(wire
+		(pts
+			(xy 257.81 116.84) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b52d9d-1fb1-43c1-8286-25d5cf0d45d2")
 	)
 	(wire
 		(pts
@@ -5716,7 +5023,7 @@
 	)
 	(hierarchical_label "ANT"
 		(shape bidirectional)
-		(at 214.122 137.16 180)
+		(at 240.03 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5836,167 +5143,6 @@
 		(uuid "ff3b4b74-1c0d-4385-9d11-bd21103bb89e")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 233.68 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "034e08d8-fa5a-4cc3-a90a-4a1cff1bb4da")
-		(property "Reference" "R28"
-			(at 233.68 134.874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NC"
-			(at 233.68 139.446 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 233.68 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 233.68 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "-"
-			(at 233.68 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57b89786-1f7e-4001-9a15-30d2a6ad7b3f")
-		)
-		(pin "1"
-			(uuid "639b413c-c65e-403d-a5eb-1632d4d3d9f0")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna_Chip")
-		(at 276.86 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0619f84d-bc28-4bbc-9047-22cb49947882")
-		(property "Reference" "AE1"
-			(at 274.828 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2450AT18D0100001E"
-			(at 264.414 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2450AT18D0100001E:2450AT18D0100001E"
-			(at 274.32 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.johansontechnology.com/docs/3791/Antenna-2450AT18D0100001E-Rev5.0.pdf"
-			(at 274.32 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic chip antenna with pin for PCB trace"
-			(at 276.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" " 609-2450AT18D0100001 "
-			(at 276.86 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ff9fcfd-8198-4084-88f4-f07317a443e9")
-		)
-		(pin "2"
-			(uuid "dda9cf11-4f0c-4ac1-a9cd-39f98cf56ea7")
-		)
-		(pin "3"
-			(uuid "78d049d1-b77f-4396-a2d0-0e965309d69d")
-		)
-		(pin "4"
-			(uuid "bc99839d-9bac-4fea-b756-14ed4c84cf75")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 119.38 167.64 270)
 		(unit 1)
@@ -6058,71 +5204,6 @@
 			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 250.19 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cdb476b-6a9a-4763-8309-d4320547a19b")
-		(property "Reference" "#PWR0143"
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 250.19 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3defed87-fbcf-4afd-9905-acc19f5720c6")
-		)
-		(instances
-			(project ""
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -6262,88 +5343,6 @@
 		)
 	)
 	(symbol
-		(lib_id "fabis_lib:RSP-122811-01")
-		(at 271.78 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26a4cbf2-8aef-4da9-b77b-33ac19cdf737")
-		(property "Reference" "J10"
-			(at 271.78 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RSP-122811-01"
-			(at 272.542 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SAMTEC_RSP-122811-01:SAMTEC_RSP-122811-01"
-			(at 270.002 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.snapeda.com/parts/RSP-122811-01/Samtec%20Inc./datasheet/"
-			(at 271.526 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "U.FL (UMCC), I-PEX MHFI Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
-			(at 270.764 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" " 200-RSP-122811-01 "
-			(at 272.542 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3ef8cf6-66a2-4434-894c-0aa3e9423cd9")
-		)
-		(pin "G2"
-			(uuid "e5be05e4-d30a-4e25-a22f-06d8ba3c0d22")
-		)
-		(pin "G"
-			(uuid "ab36d90b-e94d-45d7-9637-f780ca883902")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "fabis_lib:VBUS")
 		(at 96.52 45.72 270)
 		(unit 1)
@@ -6464,6 +5463,15 @@
 			)
 		)
 		(property "MOUSER" " 653-B3U-1000P "
+			(at 53.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C231329"
 			(at 53.34 22.86 0)
 			(effects
 				(font
@@ -6621,16 +5629,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 261.62 137.16 90)
+		(lib_id "Device:R")
+		(at 254 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "35bb3e05-3ad0-4abb-9af0-c5bccf75d2fa")
-		(property "Reference" "C64"
-			(at 261.62 131.826 90)
+		(fields_autoplaced yes)
+		(uuid "394040c8-baaf-4237-a672-52dcead28236")
+		(property "Reference" "R28"
+			(at 254 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,15 +5647,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 261.62 133.858 90)
+			(at 254 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 265.43 136.1948 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 254 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +5664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 137.16 0)
+			(at 254 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,8 +5672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 261.62 137.16 0)
+		(property "Description" "Resistor"
+			(at 254 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,8 +5681,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" "71-CRCW04020000Z0EDC"
-			(at 261.62 137.16 90)
+		(property "LCSC" "C17168"
+			(at 254 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,15 +5691,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "095d3f52-8fd6-44ae-ac80-f2173c626f85")
+			(uuid "6e71233e-c521-4fbf-94d9-0786b712d8b6")
 		)
 		(pin "2"
-			(uuid "eaf439bb-9936-49cf-b87a-55a66d8a2f2d")
+			(uuid "301aee46-6097-478d-b378-26dbcda6964c")
 		)
 		(instances
-			(project "MasterProject"
+			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "C64")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7110,6 +6119,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e49974a3-41b9-4883-965e-c4a219b64c19")
 		)
@@ -7120,149 +6138,6 @@
 			(project "MasterProject"
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 269.24 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5489605e-e0d7-413b-9dac-d6dbc7639900")
-		(property "Reference" "#PWR0137"
-			(at 269.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a96f4be6-3f54-4c7d-8997-676c1d882ffa")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 133.35 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57c00434-f114-431f-a659-1f88b8be631c")
-		(property "Reference" "R29"
-			(at 226.822 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 226.822 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 228.092 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 229.87 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "71-CRCW04020000Z0EDC"
-			(at 229.87 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12bc625a-d2c7-4540-9421-43903a13ceef")
-		)
-		(pin "1"
-			(uuid "39d36253-a348-44f6-9aa8-cd0a4d100c03")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7339,8 +6214,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "599e305c-4779-4703-be94-ab40e494c1d2")
 		(property "Reference" "C65"
 			(at 244.094 120.65 0)
@@ -7607,6 +6482,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 58.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7d00411-3be1-4646-91a2-08446c42c07b")
 		)
@@ -7686,6 +6570,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92c24907-f38a-4909-87f5-148451d2d4b0")
 		)
@@ -7696,84 +6589,6 @@
 			(project "MasterProject"
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 250.19 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "7953f6ca-1d86-41b6-9920-167bb1c6cf7d")
-		(property "Reference" "C62"
-			(at 244.094 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NC"
-			(at 248.412 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 249.2248 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "-"
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bff047aa-ba89-4b3a-a3fe-40b6ead1c9c9")
-		)
-		(pin "2"
-			(uuid "f55a91f7-d521-43f2-a94b-9120a72ebdd6")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7841,6 +6656,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 50.8 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70791758-9685-4b0c-9dc6-80eb69bbdb9c")
 		)
@@ -7875,7 +6699,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 177.8 77.4699 0)
 			(effects
 				(font
@@ -7920,6 +6744,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "12cbc813-450e-42c3-afc1-cb59886f06b1")
 		)
@@ -7930,84 +6763,6 @@
 			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 261.62 116.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "828d09d0-0735-453b-8a6a-2f8189bc2bca")
-		(property "Reference" "L4"
-			(at 261.62 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7nH"
-			(at 261.62 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 261.62 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 261.62 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "815-AISC-Q0402-4N7JT"
-			(at 261.62 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e088b4f-e79d-4e75-b410-9a39fb0863a2")
-		)
-		(pin "2"
-			(uuid "ce4911cb-8c9e-407d-bb6e-d3c5c76b5b82")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -8131,6 +6886,15 @@
 			)
 		)
 		(property "MOUSER" " 474-PRT-09749 "
+			(at 134.62 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C295747"
 			(at 134.62 40.64 90)
 			(effects
 				(font
@@ -8428,6 +7192,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C131223"
+			(at 45.72 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b71c755-bae8-4883-be69-c7270a8ab11d")
 		)
@@ -8462,7 +7235,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 233.68 78.7399 0)
 			(effects
 				(font
@@ -8507,6 +7280,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7c86177-273c-4051-b2a6-f28a999dad81")
 		)
@@ -8541,7 +7323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
+		(property "Value" "Conn_01x07_Socket"
 			(at 153.67 173.9899 0)
 			(effects
 				(font
@@ -8578,6 +7360,15 @@
 			)
 		)
 		(property "MOUSER" "571-215297-5"
+			(at 152.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2832270"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -8747,6 +7538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7499331"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "94137ebc-7ab9-4235-80cc-ab8e888c2a6f")
 		)
@@ -8865,6 +7665,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C74338"
+			(at 69.85 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15a4ac96-956a-4210-a5ab-0c9208cbcf63")
 		)
@@ -8875,163 +7684,6 @@
 			(project "MasterProject"
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "aaab7768-69d1-46f4-b4b1-e33f3517d6ba")
-		(property "Reference" "C63"
-			(at 260.35 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NC"
-			(at 258.064 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 256.8448 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "-"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efeceebd-e53e-4850-9048-88dc7e37d7c8")
-		)
-		(pin "2"
-			(uuid "0929319a-8218-49e1-a798-5f61846a1a57")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 116.84 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab9c90e8-e2d9-4a46-ac60-80f00945f285")
-		(property "Reference" "C59"
-			(at 255.778 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2pF"
-			(at 256.54 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 257.81 117.8052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" " 81-GRM1555C1H2R2CA1D "
-			(at 254 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f313065-0b8e-4e18-ab2b-176778b8b1ec")
-		)
-		(pin "1"
-			(uuid "5df38f00-8a15-4da8-a08f-af25bb7c1c93")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -9102,6 +7754,15 @@
 			)
 		)
 		(property "MOUSER" "720-LTQH9GQ2S225"
+			(at 58.42 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C74338"
 			(at 58.42 125.73 90)
 			(effects
 				(font
@@ -9296,7 +7957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
+		(property "Value" "Conn_01x07_Socket"
 			(at 104.14 173.9899 0)
 			(effects
 				(font
@@ -9341,6 +8002,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2832270"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5ca7505-5918-4a99-ae8c-d2fbfa570c5a")
 		)
@@ -9372,71 +8042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 257.81 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7290ce5-02db-409e-b2af-7e78e6ebc2aa")
-		(property "Reference" "#PWR0144"
-			(at 257.81 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.556 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4add3346-f594-45da-871d-20984f26727c")
-		)
-		(instances
-			(project ""
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 64.77 161.29 0)
 		(unit 1)
@@ -9454,7 +8059,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "orange"
 			(at 63.1825 157.48 0)
 			(effects
 				(font
@@ -9499,6 +8104,15 @@
 			)
 		)
 		(property "MOUSER" " 78-VLMO1500-GS08 "
+			(at 64.77 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88330"
 			(at 64.77 161.29 0)
 			(effects
 				(font
@@ -9662,9 +8276,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3a9bcd6-7189-482a-838d-3fb70f688111")
 		(property "Reference" "C60"
 			(at 260.096 118.872 0)
@@ -9674,7 +8288,7 @@
 				)
 			)
 		)
-		(property "Value" "0.7pF"
+		(property "Value" "NC"
 			(at 261.112 122.936 0)
 			(effects
 				(font
@@ -9709,7 +8323,7 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER" "581-04025U0R7BAT2A"
+		(property "MOUSER" "-"
 			(at 257.81 120.65 0)
 			(effects
 				(font
@@ -9801,72 +8415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 279.4 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6e19590-f967-4460-8ba4-7e6f0d6f1a25")
-		(property "Reference" "#PWR094"
-			(at 279.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1f3159a-651a-47c8-a070-de75b1bec2de")
-		)
-		(instances
-			(project ""
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x16_Socket")
 		(at 36.83 48.26 0)
 		(mirror y)
@@ -9920,6 +8468,15 @@
 			)
 		)
 		(property "MOUSER" "200-CES11601TS"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7499334"
 			(at 36.83 48.26 0)
 			(effects
 				(font
@@ -10052,6 +8609,85 @@
 		)
 	)
 	(symbol
+		(lib_id "ADWH004:ADWH004")
+		(at 267.97 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34bc558-ccb2-4116-b5e4-e535b60a7f2f")
+		(property "Reference" "L4"
+			(at 271.78 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADWH004"
+			(at 271.78 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ADWH004:ADWH004"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42414493"
+			(at 267.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eede6c4c-674f-4e7e-b10b-2c91ab2149dd")
+		)
+		(pin "1"
+			(uuid "ddb16ff0-6bf2-497d-bcdb-2443a444cfac")
+		)
+		(instances
+			(project ""
+				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 257.81 124.46 0)
 		(unit 1)
@@ -10177,82 +8813,6 @@
 			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdf0a36c-282b-4894-b363-f6cd991fa25a")
-		(property "Reference" "C61"
-			(at 254 132.334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 254 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 257.81 136.1948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "71-CRCW04020000Z0EDC"
-			(at 254 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c58ae73-214e-41b5-8ff2-8e7128047b36")
-		)
-		(pin "2"
-			(uuid "8742f5e4-50c4-4764-be35-54d9b6fc1a74")
-		)
-		(instances
-			(project ""
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "C61")
 					(unit 1)
 				)
 			)

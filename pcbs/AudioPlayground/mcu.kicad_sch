@@ -7553,6 +7553,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 52.07 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8bc0f801-d0db-4423-9195-a0dcc240f9f2")
 		)
@@ -7623,6 +7632,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 123.19 22.86 0)
 			(effects
 				(font
@@ -7972,6 +7990,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6d7ea37-a7dd-4019-b1e9-f99c6f629b7d")
 		)
@@ -8275,21 +8302,21 @@
 		(fields_autoplaced yes)
 		(uuid "43a1de5e-8db3-486b-aeaa-c0ef012c3f61")
 		(property "Reference" "C10"
-			(at 83.82 38.1001 0)
+			(at 76.2 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
-			(at 83.82 35.5601 0)
+		(property "Value" "1uF"
+			(at 76.2 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -8329,6 +8356,15 @@
 			)
 		)
 		(property "MOUSER" " 81-GRM155Z71A105KE1D "
+			(at 80.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 80.01 36.83 0)
 			(effects
 				(font
@@ -8479,6 +8515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86061"
+			(at 63.5 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8317a644-80c5-40d3-a72f-fc440e13b83d")
 		)
@@ -8512,7 +8557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 52.324 120.142 0)
 			(effects
 				(font
@@ -8549,6 +8594,15 @@
 			)
 		)
 		(property "MOUSER" " 81-GRM155Z71A105KE1D "
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -8628,6 +8682,15 @@
 			)
 		)
 		(property "MOUSER" " 949-NRF5340-QKAA-R7 "
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3015611"
 			(at 105.41 116.84 0)
 			(effects
 				(font
@@ -9059,6 +9122,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 68.58 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28abc9ca-5cd4-4ffb-962e-ca0df1987177")
 		)
@@ -9202,6 +9274,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1186337f-d673-4abe-8cfc-dd56af20fa43")
 		)
@@ -9272,6 +9353,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 146.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 146.05 22.86 0)
 			(effects
 				(font
@@ -9575,7 +9665,7 @@
 				)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "2.2R"
 			(at 41.91 171.45 90)
 			(effects
 				(font
@@ -9611,6 +9701,15 @@
 			)
 		)
 		(property "MOUSER" " 667-ERJ-U02F2R20X "
+			(at 41.91 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25101"
 			(at 41.91 175.26 90)
 			(effects
 				(font
@@ -9754,6 +9853,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -9989,6 +10097,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3be0f70c-86c6-4495-a8d2-e6e271763186")
 		)
@@ -10124,6 +10241,15 @@
 			)
 		)
 		(property "MOUSER" " 603-CC0402KR5R6BB475 "
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
 			(at 46.99 186.69 0)
 			(effects
 				(font
@@ -10277,6 +10403,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1531"
+			(at 67.31 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1eb79f3-e70e-4ff1-9d0c-cc42a823f22e")
 		)
@@ -10375,7 +10510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 70.358 188.976 0)
 			(effects
 				(font
@@ -10420,6 +10555,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 69.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f119457-f7b8-44e4-8f39-703cfd0f196d")
 		)
@@ -10442,7 +10586,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b2ffb8e1-1116-4a72-b087-15c01656aaa2")
 		(property "Reference" "C20"
@@ -10635,6 +10779,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 138.43 36.83 0)
 			(effects
 				(font
@@ -10854,6 +11007,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C48946156"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c2ce03d-8bcb-4876-959b-84e128a225ab")
 		)
@@ -10998,6 +11160,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc4b2dd1-7de6-422e-bc1c-f42dd5c6c1a7")
 		)
@@ -11134,6 +11305,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 138.43 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 138.43 22.86 0)
 			(effects
 				(font
@@ -11287,6 +11467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 16.51 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba2920f6-9bfe-4f94-92ea-d0dfb18fb29e")
 		)
@@ -11432,6 +11621,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C48946156"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43e1022d-238d-4d09-895c-fb3daf644a8d")
 		)
@@ -11502,6 +11700,15 @@
 			)
 		)
 		(property "MOUSER" "581-04025U0R7BAT2A"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C397301"
 			(at 69.85 163.83 0)
 			(effects
 				(font
@@ -11663,6 +11870,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 123.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1878f64-83c8-4ea8-860b-720b9c6c3bc6")
 		)
@@ -11697,7 +11913,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 95.25 38.0999 0)
 			(effects
 				(font
@@ -11743,6 +11959,15 @@
 			)
 		)
 		(property "MOUSER" " 81-GRM155Z71A105KE1D "
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 91.44 36.83 0)
 			(effects
 				(font
@@ -11888,6 +12113,15 @@
 			)
 		)
 		(property "MOUSER" " 80-C0402C104M4R "
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 29.21 179.07 0)
 			(effects
 				(font

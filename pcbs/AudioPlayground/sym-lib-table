@@ -9,4 +9,5 @@
   (lib (name "R7FA4M2")(type "KiCad")(uri "${KIPRJMOD}/../../components/R7FA4M2/R7FA4M2.kicad_sym")(options "")(descr ""))
   (lib (name "MAX9867")(type "KiCad")(uri "${KIPRJMOD}/../../components/MAX9867/MAX9867.kicad_sym")(options "")(descr ""))
   (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/../../components/TS3USB221A/TS3USB221A.kicad_sym")(options "")(descr ""))
+  (lib (name "ADWH004")(type "KiCad")(uri "${KIPRJMOD}/../../components/ADWH004/ADWH004.kicad_sym")(options "")(descr ""))
 )
