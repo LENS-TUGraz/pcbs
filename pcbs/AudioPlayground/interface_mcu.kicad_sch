@@ -2137,6 +2137,10 @@
 		(uuid "780c7056-3835-432f-9790-70e9cb1b8bb4")
 	)
 	(no_connect
+		(at 170.18 63.5)
+		(uuid "798ba647-72c7-4bdb-8d50-cb48ec2dbecf")
+	)
+	(no_connect
 		(at 123.19 110.49)
 		(uuid "87b57e47-8555-4214-9559-0e00f34721bc")
 	)
@@ -2199,15 +2203,6 @@
 			(type default)
 		)
 		(uuid "ab61b3fa-dcc4-418c-a46a-e7ec346a7ef4")
-	)
-	(bus_entry
-		(at 226.06 71.12)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5261e2e-1b6a-4e3a-afa5-fd8c1167fb02")
 	)
 	(bus_entry
 		(at 223.52 63.5)
@@ -2450,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 68.58) (xy 223.52 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "542d7a27-6a02-4140-b25b-c193a226317a")
-	)
-	(wire
-		(pts
 			(xy 146.05 24.13) (xy 152.4 24.13)
 		)
 		(stroke
@@ -2487,26 +2472,6 @@
 			(type default)
 		)
 		(uuid "60af038b-4661-4d4a-9239-a30a3ff7f494")
-	)
-	(wire
-		(pts
-			(xy 194.31 68.58) (xy 196.85 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6552f81b-41ce-4ecc-820e-b323a9115929")
-	)
-	(bus
-		(pts
-			(xy 226.06 68.58) (xy 226.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67847e24-c577-4bf1-b628-fc2c9f0fcd18")
 	)
 	(wire
 		(pts
@@ -2720,7 +2685,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 71.12) (xy 226.06 73.66)
+			(xy 226.06 68.58) (xy 226.06 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2958,16 +2923,6 @@
 		)
 		(uuid "ff058434-b7c7-48ab-86f0-aa0a4b2e5bb3")
 	)
-	(label "P100"
-		(at 170.18 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bfbdcfc-bc34-413c-bebe-eedbf3570c49")
-	)
 	(label "SWD.SWDCLK"
 		(at 209.55 66.04 0)
 		(effects
@@ -3007,26 +2962,6 @@
 			(justify left bottom)
 		)
 		(uuid "72cf8d44-cec7-456b-8fde-50df040e28dc")
-	)
-	(label "P100"
-		(at 194.31 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81ca2d9b-7d8b-4f7d-a9cb-de186f7dafac")
-	)
-	(label "SWD.SWO"
-		(at 209.55 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "880aebe3-cc0c-4099-a966-492aa92b89af")
 	)
 	(label "P301"
 		(at 222.25 99.06 0)
@@ -3246,6 +3181,15 @@
 			)
 		)
 		(property "MOUSER" " 581-CX3225SB12DFPNCC "
+			(at 57.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2901648"
 			(at 57.15 87.63 0)
 			(effects
 				(font
@@ -6083,91 +6027,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e89de029-50db-4d79-ac8e-4e782abfdc0c")
-		(property "Reference" "R32"
-			(at 200.914 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150R"
-			(at 205.994 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.66 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" " 603-RC0402FR-7D150RL "
-			(at 200.66 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25082"
-			(at 200.66 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cad8e773-471d-48d0-8395-e9a1f242793c")
-		)
-		(pin "2"
-			(uuid "1fa683f5-95c9-421e-a25f-91914148c8fb")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/fa0718d0-305f-456b-934a-4cd39d3c1c9c"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 130.81 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6473,7 +6332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "R7FA4M2AB3CNE"
+		(property "LCSC" "C3226797"
 			(at 91.44 40.64 0)
 			(effects
 				(font

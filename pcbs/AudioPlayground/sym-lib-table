@@ -10,4 +10,6 @@
   (lib (name "MAX9867")(type "KiCad")(uri "${KIPRJMOD}/../../components/MAX9867/MAX9867.kicad_sym")(options "")(descr ""))
   (lib (name "TS3USB221A")(type "KiCad")(uri "${KIPRJMOD}/../../components/TS3USB221A/TS3USB221A.kicad_sym")(options "")(descr ""))
   (lib (name "ADWH004")(type "KiCad")(uri "${KIPRJMOD}/../../components/ADWH004/ADWH004.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G126DRYR")(type "KiCad")(uri "${KIPRJMOD}/../../components/SN74LVC1G126DRYR/SN74LVC1G126DRYR.kicad_sym")(options "")(descr ""))
+  (lib (name "GTD3526BA-1N")(type "KiCad")(uri "${KIPRJMOD}/../../components/GTD3526BA-1N/GTD3526BA-1N.kicad_sym")(options "")(descr ""))
 )
