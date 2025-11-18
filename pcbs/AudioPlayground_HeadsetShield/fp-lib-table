@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "SJ235364BSMTTR")(type "KiCad")(uri "${KIPRJMOD}/../../components/SJ235364BSMTTR")(options "")(descr ""))
   (lib (name "PJ-342")(type "KiCad")(uri "${KIPRJMOD}/../../components/PJ-342")(options "")(descr ""))
-  (lib (name "7*7*5-6P-LWX")(type "KiCad")(uri "${KIPRJMOD}/../../components/7*7*5-6P-LWX")(options "")(descr ""))
+  (lib (name "775-6P-LWX")(type "KiCad")(uri "${KIPRJMOD}/../../components/775-6P-LWX")(options "")(descr ""))
 )

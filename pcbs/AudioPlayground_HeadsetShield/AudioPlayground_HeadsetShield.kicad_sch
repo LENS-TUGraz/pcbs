@@ -3049,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Value" "7*7*5-6P-L WX"
+		(property "Value" "775-6P-LWX"
 			(at 154.94 120.65 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7*7*5-6P-LWX:7*7*5-6P-LWX"
+		(property "Footprint" "775-6P-LWX:775-6P-LWX"
 			(at 154.94 143.51 0)
 			(effects
 				(font

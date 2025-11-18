@@ -152,7 +152,7 @@
 				)
 			)
 		)
-		(property "Value" "7*7*5-6P-L WX"
+		(property "Value" "775-6P-LWX"
 			(at 0 8 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -425,7 +425,7 @@
 			(uuid "04b19d17-d0ef-44c0-beb7-b0b8b912b4fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../../components/7*7*5-6P-LWX/7*7*5-6P-LWX.step"
+		(model "${KIPRJMOD}/../../components/775-6P-LWX/775-6P-LWX.step"
 			(offset
 				(xyz 0 -0 1.8)
 			)
@@ -3457,7 +3457,7 @@
 		(sheetname "/")
 		(sheetfile "AudioPlayground_HeadsetShield.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
