@@ -301,6 +301,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 59.69) (xy 152.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bb88c6-8e1e-4a66-8eaf-ae508f05d9ea")
+	)
+	(wire
+		(pts
 			(xy 86.36 93.98) (xy 80.264 93.98)
 		)
 		(stroke
@@ -954,6 +964,16 @@
 				(justify left)
 			)
 		)
+		(pin "CODECIRQ" input
+			(at 138.43 59.69 0)
+			(uuid "31b31703-2c5e-450b-a186-fd7acb75b979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "AudioPlayground"
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447"
@@ -1325,6 +1345,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CODECIRQ" output
+			(at 152.4 59.69 180)
+			(uuid "a296b016-d675-4925-b190-b2284b72fd74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

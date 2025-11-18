@@ -1805,6 +1805,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66da41fb-b291-40da-a9c5-781349fbe213")
+	)
+	(wire
+		(pts
 			(xy 162.56 58.42) (xy 162.56 67.31)
 		)
 		(stroke
@@ -2173,6 +2183,16 @@
 		)
 		(uuid "2f06dc31-29a8-4633-bec2-4ef19f7014fe")
 	)
+	(label "IRQ"
+		(at 123.19 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3626e21d-0755-49de-919f-f7c91b607477")
+	)
 	(label "I2S.SDIN"
 		(at 158.75 34.29 0)
 		(effects
@@ -2222,6 +2242,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ef675e4-015d-4d4b-af27-730c21406c29")
+	)
+	(label "IRQ"
+		(at 92.71 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1456a5f-c44e-4df1-b21c-8e33522c8715")
 	)
 	(label "I2S.SDOUT"
 		(at 158.75 36.83 0)
@@ -2340,6 +2370,17 @@
 			(justify left)
 		)
 		(uuid "8e8896b6-3644-4ede-ae22-35765afe0f82")
+	)
+	(hierarchical_label "CODECIRQ"
+		(shape output)
+		(at 87.63 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1be5072-fd59-413c-8a00-73188ee52351")
 	)
 	(hierarchical_label "DIGMICDATA"
 		(shape input)

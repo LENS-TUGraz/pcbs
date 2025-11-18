@@ -3309,16 +3309,6 @@
 		)
 		(uuid "8de13154-8738-4cff-8b8c-833dd827ccc8")
 	)
-	(text "SWD\n"
-		(exclude_from_sim no)
-		(at 146.304 77.47 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9049e648-7a52-4fa7-b3f1-d5d11a38aabb")
-	)
 	(text "RGB1"
 		(exclude_from_sim no)
 		(at 146.685 114.3 90)
@@ -3583,10 +3573,6 @@
 	(no_connect
 		(at 107.95 43.18)
 		(uuid "8f3caf64-0499-4083-86e3-3a7283159269")
-	)
-	(no_connect
-		(at 138.43 78.74)
-		(uuid "ab6f83ae-9c51-4a2e-9b7e-b74c2abfe019")
 	)
 	(no_connect
 		(at 138.43 162.56)
@@ -4774,6 +4760,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baf5996-ce74-45e7-ab10-ccbee7c52774")
+	)
+	(wire
+		(pts
 			(xy 176.53 96.52) (xy 189.23 96.52)
 		)
 		(stroke
@@ -5721,16 +5717,6 @@
 			(type default)
 		)
 		(uuid "f80e4e76-97e1-4a11-b3c5-753e1bca2bf1")
-	)
-	(polyline
-		(pts
-			(xy 144.78 76.835) (xy 144.78 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92a1c09-1fd8-4604-af7d-c20dc48fbf0d")
 	)
 	(wire
 		(pts
@@ -7193,6 +7179,17 @@
 			(justify left)
 		)
 		(uuid "15ef0798-c723-4c08-a75f-2c97f7e6e82e")
+	)
+	(hierarchical_label "CODECIRQ"
+		(shape input)
+		(at 146.05 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39228fd2-97b4-4aef-ad0d-8d8483b1ec49")
 	)
 	(hierarchical_label "VCOM{RXD TXD}"
 		(shape bidirectional)
