@@ -3774,7 +3774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 142.748 107.696 90)
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 144.78 105.41 90)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 135.636 114.046 90)
 			(effects
 				(font
@@ -5721,7 +5721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 137.16 111.76 90)
 			(effects
 				(font
@@ -6705,7 +6705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 139.446 121.666 90)
 			(effects
 				(font
@@ -6750,7 +6750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 137.16 119.38 90)
 			(effects
 				(font

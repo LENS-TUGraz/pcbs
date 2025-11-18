@@ -11386,7 +11386,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11435,7 +11435,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21791,7 +21791,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -21840,7 +21840,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36203,7 +36203,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -36252,7 +36252,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25744"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
