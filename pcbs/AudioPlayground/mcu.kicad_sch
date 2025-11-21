@@ -7362,7 +7362,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "104257c4-e205-49fd-8dbe-9bf7e8706142")
 		(property "Reference" "TP1"
@@ -11698,7 +11698,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "f044c8b3-2994-40c1-9694-0821de85a4fb")
 		(property "Reference" "TP2"
