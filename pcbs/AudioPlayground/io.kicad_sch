@@ -2966,6 +2966,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fabis_lib:3.3V_SWITCHED"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V_SWITCHED"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3.3V_SWITCHED\""
+				(at 1.778 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3.3V_SWITCHED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.3V_SWITCHED_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "fabis_lib:VBAT"
 			(power)
 			(pin_numbers
@@ -4062,6 +4187,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 160.02) (xy 73.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c03b22e-977f-411e-9f65-6af896e8f03e")
+	)
+	(wire
+		(pts
 			(xy 50.8 38.1) (xy 41.91 38.1)
 		)
 		(stroke
@@ -4299,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "4e977ee7-d4f7-418a-911b-d1d32ad3f2e0")
+	)
+	(wire
+		(pts
+			(xy 73.66 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f016b1-7b8d-4ba3-ba4c-cc01086e703c")
 	)
 	(wire
 		(pts
@@ -4729,16 +4874,6 @@
 			(type default)
 		)
 		(uuid "b0f0775f-71c1-4b0d-bd05-9396c400e816")
-	)
-	(wire
-		(pts
-			(xy 68.58 161.29) (xy 72.39 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65b85b6-6d5a-4667-8efe-cd57c1ea97ca")
 	)
 	(wire
 		(pts
@@ -5577,6 +5712,72 @@
 			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fabis_lib:3.3V_SWITCHED")
+		(at 73.66 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18bd8685-80bc-4f14-99e7-27f8c0219af1")
+		(property "Reference" "#PWR063"
+			(at 73.66 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SWITCHED"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V_SWITCHED\""
+			(at 75.438 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd76b222-7d47-4c0b-8ed4-adc4e7cd7251")
+		)
+		(instances
+			(project "AudioPlayground"
+				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -6815,72 +7016,6 @@
 			(project ""
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
 					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 72.39 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "642c927a-967e-43f3-be92-16445321a13d")
-		(property "Reference" "#PWR063"
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 72.39 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 72.39 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54800136-e233-46b2-a29f-f5672fc04291")
-		)
-		(instances
-			(project "MasterProject"
-				(path "/1c455b59-0247-4883-9aca-444b4cb10447/29a684ad-0419-4707-8a02-8b645f275b27"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
