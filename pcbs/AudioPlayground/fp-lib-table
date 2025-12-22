@@ -12,4 +12,5 @@
   (lib (name "ADWH004")(type "KiCad")(uri "${KIPRJMOD}/../../components/ADWH004")(options "")(descr ""))
   (lib (name "SN74LVC1G126DRYR")(type "KiCad")(uri "${KIPRJMOD}/../../components/SN74LVC1G126DRYR")(options "")(descr ""))
   (lib (name "GTD3526BA-1N")(type "KiCad")(uri "${KIPRJMOD}/../../components/GTD3526BA-1N")(options "")(descr ""))
+  (lib (name "C507245")(type "KiCad")(uri "${KIPRJMOD}/../../components/SN74LVC1G66DRYR")(options "")(descr ""))
 )
