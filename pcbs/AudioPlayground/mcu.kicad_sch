@@ -4188,6 +4188,16 @@
 		)
 		(uuid "19f6f95e-608a-4ce4-8690-ff0c52b5dab1")
 	)
+	(wire
+		(pts
+			(xy 232.41 123.19) (xy 256.54 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa4974b-c46d-47ce-baab-9deef856eb65")
+	)
 	(polyline
 		(pts
 			(xy 145.034 153.162) (xy 145.034 157.226)
@@ -4307,16 +4317,6 @@
 			(type default)
 		)
 		(uuid "2798fe87-ac60-46c7-9e83-205a7b41c80a")
-	)
-	(wire
-		(pts
-			(xy 243.84 120.65) (xy 256.54 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27fa173e-f288-47ce-ab1f-cad57b232c34")
 	)
 	(wire
 		(pts
@@ -4858,16 +4858,6 @@
 		)
 		(uuid "7648bab1-4c3e-49f9-815c-cbc30d84d061")
 	)
-	(wire
-		(pts
-			(xy 243.84 123.19) (xy 256.54 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d64208-9cac-4c95-b183-5f5c8c2f8463")
-	)
 	(bus
 		(pts
 			(xy 256.54 160.02) (xy 256.54 162.56)
@@ -4957,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "88f51a8c-4c25-4c3a-9291-449695daf135")
+	)
+	(wire
+		(pts
+			(xy 238.76 120.65) (xy 256.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0382c7-bbb9-40ee-86b4-25efe7b4a2ff")
 	)
 	(wire
 		(pts
@@ -8945,6 +8945,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d9b226-71e4-45df-864b-aac28b27aaf6")
+		(property "Reference" "TP8"
+			(at 235.458 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 235.458 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "158b0629-6a3c-439b-9441-318fc1c72599")
+		)
+		(instances
+			(project "AudioPlayground"
+				(path "/1c455b59-0247-4883-9aca-444b4cb10447/26d34958-e592-44d3-88a3-daa1680508c2"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 190.5 0)
 		(unit 1)
@@ -9679,6 +9744,71 @@
 			(project "MasterProject"
 				(path "/1c455b59-0247-4883-9aca-444b4cb10447/26d34958-e592-44d3-88a3-daa1680508c2"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8383e60f-6935-4e7f-836c-2fb4284419eb")
+		(property "Reference" "TP9"
+			(at 229.108 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWDCLK"
+			(at 229.108 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ad19144-74c3-4a44-a5c3-8d24fa03e424")
+		)
+		(instances
+			(project "AudioPlayground"
+				(path "/1c455b59-0247-4883-9aca-444b4cb10447/26d34958-e592-44d3-88a3-daa1680508c2"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
