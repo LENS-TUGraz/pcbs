@@ -42524,10 +42524,49 @@
 			)
 		)
 	)
+	(gr_text "LRCLK"
+		(at 135.718949 126.368949 0)
+		(layer "B.SilkS")
+		(uuid "02d9800e-4f84-4b80-aba7-de9445e4d525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "LE Audio\nPlayground v2.1"
 		(at 158.877749 128.109749 0)
 		(layer "B.SilkS")
 		(uuid "2bfdafdc-6d3a-4a95-a3a7-8b70584580d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SDIN"
+		(at 139.118949 128.487898 0)
+		(layer "B.SilkS")
+		(uuid "3dc9b11c-00da-4548-9735-01e679b89531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "BCLK"
+		(at 132.318949 128.368949 0)
+		(layer "B.SilkS")
+		(uuid "69e3a17a-7a48-4e3b-aae5-12317717b9da")
 		(effects
 			(font
 				(size 1 1)
@@ -42547,6 +42586,32 @@
 				(thickness 0.125)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MCLK"
+		(at 131.318949 131.368949 0)
+		(layer "B.SilkS")
+		(uuid "bd9fc7cc-74e5-4c07-9e33-786d217d586c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SDOUT"
+		(at 139.818949 130.568949 0)
+		(layer "B.SilkS")
+		(uuid "e85890ec-11bf-466c-a40f-d53728c90a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(segment
