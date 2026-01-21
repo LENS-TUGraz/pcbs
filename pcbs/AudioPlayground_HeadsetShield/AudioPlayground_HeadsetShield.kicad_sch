@@ -1592,13 +1592,13 @@
 	)
 	(text "(CTIA STD)"
 		(exclude_from_sim no)
-		(at 130.81 99.568 0)
+		(at 130.81 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2e85b40b-a6d2-4b7f-bd6d-c58245f301f4")
+		(uuid "426d1f04-09f1-4013-985e-716266e119de")
 	)
 	(text "Headphone\nwith Mic"
 		(exclude_from_sim no)
@@ -1809,6 +1809,16 @@
 		)
 		(uuid "1e196df1-18a8-49f0-923a-4c35b672f171")
 	)
+	(wire
+		(pts
+			(xy 113.03 107.95) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ca29fb-a4c3-4ce0-a52d-676d730cd9df")
+	)
 	(bus
 		(pts
 			(xy 115.57 74.93) (xy 115.57 77.47)
@@ -1981,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc14034-d8d5-40b7-a2fa-749f5c8412e1")
+	)
+	(wire
+		(pts
 			(xy 130.81 130.81) (xy 142.24 130.81)
 		)
 		(stroke
@@ -2081,16 +2101,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d27765-0558-4434-9b33-084cd317bfba")
-	)
-	(wire
-		(pts
 			(xy 120.65 62.23) (xy 104.14 62.23)
 		)
 		(stroke
@@ -2098,16 +2108,6 @@
 			(type default)
 		)
 		(uuid "a6bfd48b-c57a-4439-bc90-0b788f3c8ea7")
-	)
-	(wire
-		(pts
-			(xy 113.03 95.25) (xy 111.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70f60ef-7433-4507-8611-609612ec12ad")
 	)
 	(wire
 		(pts
@@ -2131,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1559b8d-d5f2-4422-9878-11ce7e0cde0d")
+	)
+	(wire
+		(pts
 			(xy 195.58 93.98) (xy 195.58 102.87)
 		)
 		(stroke
@@ -2148,16 +2158,6 @@
 			(type default)
 		)
 		(uuid "c805d560-8c8b-4da0-9c35-a4342fbc771d")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 135.89 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c0cf74-839c-4165-8dfe-7d631d220be0")
 	)
 	(wire
 		(pts
@@ -2188,16 +2188,6 @@
 			(type default)
 		)
 		(uuid "dde89128-5bf8-4be0-945f-9fbf5ced6377")
-	)
-	(wire
-		(pts
-			(xy 111.76 107.95) (xy 125.73 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e70e0383-5390-421b-a153-bc3ebea528a9")
 	)
 	(wire
 		(pts
@@ -2259,6 +2249,16 @@
 		)
 		(uuid "f65b2dc4-58dc-4d81-8ac5-9b189e57517e")
 	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 113.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95e8b58-ae51-4a81-94de-f913cc4c9a84")
+	)
 	(bus
 		(pts
 			(xy 115.57 72.39) (xy 115.57 74.93)
@@ -2288,16 +2288,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c8efcc4-53f5-46de-bbda-8da31839d2c3")
-	)
-	(label "BTN1"
-		(at 137.16 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "271382f6-789a-4bcc-b09b-4e09813f3b6e")
 	)
 	(label "BTN3"
 		(at 184.15 85.09 0)
@@ -2399,16 +2389,6 @@
 		)
 		(uuid "638409f3-5ab3-43be-9219-cc1ed0d84a17")
 	)
-	(label "JACKSNS"
-		(at 149.86 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bda0b9d-41b3-450a-85e5-c80f2b768feb")
-	)
 	(label "MIC"
 		(at 140.97 67.31 180)
 		(effects
@@ -2429,6 +2409,16 @@
 		)
 		(uuid "79781c79-4690-4f2b-8779-26e846a32277")
 	)
+	(label "JACKSNS"
+		(at 149.86 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84032f2f-0d72-4912-8b8c-614f4e0a9994")
+	)
 	(label "BTN2"
 		(at 184.15 93.98 0)
 		(effects
@@ -2440,7 +2430,7 @@
 		(uuid "8577d59a-2304-4e07-bcf8-64c8035173ec")
 	)
 	(label "MIC"
-		(at 116.84 107.95 180)
+		(at 119.38 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2479,16 +2469,6 @@
 		)
 		(uuid "bef774be-49ea-49bc-a62f-3c75a1d6c06c")
 	)
-	(label "BTN2"
-		(at 172.72 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c124846f-4de1-4555-ba39-82c62e1c8fe2")
-	)
 	(label "ROUTP"
 		(at 140.97 72.39 180)
 		(effects
@@ -2519,6 +2499,16 @@
 		)
 		(uuid "d001f2bf-a654-4f72-b5fe-e57099a16582")
 	)
+	(label "BTN2"
+		(at 137.16 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b6a010-2feb-459b-9a9e-1ec97e5fa16e")
+	)
 	(label "{BTN[1..5]}"
 		(at 116.84 77.47 0)
 		(effects
@@ -2538,6 +2528,16 @@
 			(justify right bottom)
 		)
 		(uuid "de4af022-65cb-4823-ab54-9a889bafe4cd")
+	)
+	(label "BTN1"
+		(at 172.72 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ded7ae01-e3ea-4891-b5f3-5974d4f6d0cd")
 	)
 	(label "BTN1"
 		(at 184.15 102.87 0)
@@ -2637,16 +2637,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 93.98 180)
+		(at 113.03 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d87e490-3d6b-4375-bc9a-001a2f8c37a6")
 		(property "Reference" "#PWR02"
-			(at 113.03 87.63 0)
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,15 +2654,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 88.9 0)
+			(at 115.062 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 93.98 0)
+			(at 113.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 93.98 0)
+			(at 113.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 93.98 0)
+			(at 113.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,7 +3737,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 130.81 107.95 0)
+		(at 130.81 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3746,7 +3746,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0151b61-d344-4602-a7c2-275fd245806f")
 		(property "Reference" "JP1"
-			(at 130.81 102.87 0)
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3754,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 130.81 105.41 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 130.81 107.95 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 107.95 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 130.81 107.95 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3795,7 @@
 			(uuid "026e70f9-94d6-4bbd-a87e-97cedb58442a")
 		)
 		(instances
-			(project ""
+			(project "AudioPlayground_HeadsetShield"
 				(path "/f5706b07-e2a9-4776-86c6-e4c8afad03ec"
 					(reference "JP1")
 					(unit 1)
