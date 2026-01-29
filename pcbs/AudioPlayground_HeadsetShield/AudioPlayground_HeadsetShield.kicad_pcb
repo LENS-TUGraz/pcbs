@@ -4803,7 +4803,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HeadsetShield\nv2.0"
+	(gr_text "HeadsetShield\nv2.1"
 		(at 133.3556 104.3516 0)
 		(layer "B.SilkS")
 		(uuid "7c4682bf-264f-403f-bbab-207f6f5f9001")

@@ -42537,7 +42537,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "LE Audio\nPlayground v2.1"
+	(gr_text "LE Audio\nPlayground v2.2"
 		(at 158.877749 128.109749 0)
 		(layer "B.SilkS")
 		(uuid "2bfdafdc-6d3a-4a95-a3a7-8b70584580d9")
