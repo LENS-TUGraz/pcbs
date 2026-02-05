@@ -43,6 +43,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -62,6 +63,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Black")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -141,7 +143,7 @@
 		(uuid "0422ab90-5e63-4148-877d-dd7ef61eb753")
 		(at 118.776 105.581262 -45)
 		(property "Reference" "SW6"
-			(at 0 -8 315)
+			(at 0 -8 135)
 			(layer "F.SilkS")
 			(uuid "277a1d87-aa0a-4c04-b3b0-0ff4bd3afb0d")
 			(effects
@@ -152,7 +154,7 @@
 			)
 		)
 		(property "Value" "775-6P-LWX"
-			(at 0 8 315)
+			(at 0 8 135)
 			(layer "F.Fab")
 			(uuid "34f2a266-aacf-46c6-a89e-fabb7772e832")
 			(effects
@@ -163,7 +165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a0b9eed-14db-46dc-9f91-94018a23449c")
@@ -175,7 +177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18db0268-25dc-4037-ac43-3e12558e150e")
@@ -430,7 +432,7 @@
 			(uuid "e1492cca-96b8-4d14-8578-0da8dc9f4bdb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 315)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(uuid "4b9a492f-f1b7-4868-b598-b70025a78628")
 			(effects
@@ -523,15 +525,15 @@
 			(uuid "04b19d17-d0ef-44c0-beb7-b0b8b912b4fc")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_8P-L7.0-W7.0-P1.40-LS7.4-TL.wrl"
+		(model "${KIPRJMOD}/../../components/775-6P-LWX/775-6P-LWX.step"
 			(offset
-				(xyz 0 -0 0.6)
+				(xyz 0 -0 1.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz -0 -0 180)
 			)
 		)
 	)
