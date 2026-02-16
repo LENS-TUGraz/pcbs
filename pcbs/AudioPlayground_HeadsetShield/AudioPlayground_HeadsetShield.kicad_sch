@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "f5706b07-e2a9-4776-86c6-e4c8afad03ec")
 	(paper "A4")
+	(title_block
+		(title "HeadsetShield")
+		(rev "2.0")
+	)
 	(lib_symbols
 		(symbol "7*7*5-6P-LWX:7*7*5-6P-LWX"
 			(exclude_from_sim no)

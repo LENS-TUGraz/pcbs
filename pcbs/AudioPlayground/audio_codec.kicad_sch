@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "240663e4-7a5c-49f7-9cfa-c5e8e888bdb5")
 	(paper "A4")
+	(title_block
+		(title "LE Audio Playground")
+		(rev "2.2")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
