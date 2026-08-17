@@ -27,8 +27,3 @@ Designed at **Graz University of Technology**, the board provides a practical fo
 ## Open Hardware
 
 The complete schematic and PCB design are available in this repository and can be modified directly in **KiCad**.
-
----
-
-Developed at the **Institute of Technical Informatics, Graz University of Technology**.
-```
