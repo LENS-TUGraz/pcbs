@@ -1,4 +1,3 @@
-```md
 # LE Audio Playground
 
 **An open hardware platform for Bluetooth LE Audio research, prototyping, and teaching.**
