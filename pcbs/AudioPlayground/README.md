@@ -14,13 +14,13 @@ Designed at **Graz University of Technology**, the board provides a practical fo
 
 - **Nordic nRF5340** dual-core Bluetooth SoC
 - **MAX9867 stereo audio codec**
-- Stereo analog audio input and output
+- Analog audio input and output
 - **USB Audio** connectivity
 - Onboard digital **PDM microphones**
 - Integrated **SEGGER J-Link** debugging and programming
 - Single **USB-C** connection
 - USB and **LiPo/Li-ion battery operation**
-- Onboard antenna and **U.FL** connector for external antennas
+- Onboard antenna
 - Expansion headers for custom hardware and audio interfaces
 - Fully **open KiCad hardware design**
 
